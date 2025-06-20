@@ -10,7 +10,6 @@ A machine learning project that predicts the normalized resale price of used and
 - [Business Context](#business-context)
 - [Problem Statement](#problem-statement)
 - [Dataset Overview](#dataset-overview)
-- [Project Objectives](#project-objectives)
 - [Approach & Workflow](#approach--workflow)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Modeling](#modeling)
@@ -56,22 +55,11 @@ The data contains the different attributes of used/refurbished phones and tablet
 
 ---
 
-## Project Objectives
-
-- Understand the relationship between device specs and resale price
-- Handle missing values and outliers effectively
-- Build a predictive model using Linear Regression
-- Evaluate model performance with appropriate metrics
-- Identify features that influence used prices
-- Make business-driven recommendations for ReCell
-
----
-
 ## 🔄 Approach & Workflow
 
 1. **Data Cleaning**  
    - Group-wise imputation for missing values  
-   - Outlier detection using IQR and boxplots  
+   - Outlier detection using boxplots  
 
 2. **Exploratory Data Analysis (EDA)**  
    - Distribution of prices  
@@ -123,15 +111,8 @@ model.fit(X_train, y_train)
 
 ---
 
-## 💡 Key Insights & Recommendations
+##  Key Insights & Recommendations
 
-- Devices with **higher RAM**, **recent release years**, and **5G support** retain more value.
-- Devices with longer `days_used` depreciate faster — this feature strongly impacts the model.
-- iOS devices consistently have a **higher resale price** than Android and others.
-- Pricing strategy should prioritize:
-  - Battery capacity over 3500mAh
-  - Devices released within the last 2–3 years
-  - Brands with high resale loyalty (e.g., Apple)
 
 ---
 
@@ -149,8 +130,8 @@ model.fit(X_train, y_train)
 **Eniola Hannah**  
 Data Scientist | Tech Innovator  
 📍 Nigeria  
-🔗 [LinkedIn](https://www.linkedin.com/in/eniolahannah)  
-💻 [GitHub](https://github.com/eniolahannah)
+🔗 [LinkedIn](https://www.linkedin.com/in/eniola-hannah)  
+💻 [GitHub](https://github.com/eniola-hannah)
 
 ---
 
