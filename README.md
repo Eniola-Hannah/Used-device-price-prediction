@@ -103,8 +103,8 @@ model.fit(X_train, y_train)
 
 | Metric | Value    |
 |--------|----------|
-| R²     | **0.8356** |
-| MSE    | **0.0533** |
+| R²     | 0.8356 |
+| MSE    | 0.0533 |
 
 ✅ The model explains **83.56% of the variance** in used prices.  
 ✅ Error is low and predictions are consistent with real values.
